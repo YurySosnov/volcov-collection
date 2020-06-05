@@ -1,0 +1,48 @@
+.content {
+  width: 100%;
+  background-color: #212221;
+  .inner {
+    width: size(1280);
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  &-block {
+    padding: size(30) 0;
+    color: #fff;
+    & > .title {
+      font-size: size(60);
+      text-align: center;
+      font-weight: 500;
+    }
+    & > .subtitle {
+      font-size: size(36);
+      font-style: italic;
+      text-align: center;
+      font-weight: 100;
+    }
+    & > .text {
+      font-size: size(24);
+      padding: size(20) 0;
+      & > .photo-block {
+        .photo {
+
+        }
+        .description {
+          text-align: center;
+          font-size: size(24);
+          .photographer {
+            font-weight: 100;
+            font-style: italic;
+          }
+          .info {
+            font-weight: 500;
+          }
+          .year {
+            font-weight: 100;
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}

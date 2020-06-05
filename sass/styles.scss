@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+$screenSize: 1520;
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  @function headSize($value) {
+    $result: $value / 750 * 100 + vw;
+    @return $result;
+  }
+  @function size($value) {
+    $result: $value / 750 * 100 + vw;
+    @return $result;
+  }
+  @import 'mobile-head';
+  @import 'mobile-footer';
+  @import 'mobile-content';
+  @import 'mobile';
+}
+
+@media screen and (min-width: 1024px) {
+  @function headSize($value) {
+    $result: $value / 1920 * 100 + vw;
+    @return $result;
+  }
+  @function size($value) {
+    $result: $value / $screenSize * 100 + vw;
+    @return $result;
+  }
+  @import 'desktop-head';
+  @import 'desktop-footer';
+  @import 'desktop-content';
+  @import 'desktop';
+}
+
+@media screen and (min-width: $screenSize + px) {
+  @function headSize($value) {
+    $result: $value / 1920 * 100 + vw;
+    @return $result;
+  }
+  @function size($value) {
+    $result: $value + px;
+    @return $result;
+  }
+  @import 'desktop-head';
+  @import 'desktop-footer';
+  @import 'desktop-content';
+  @import 'desktop';
+}

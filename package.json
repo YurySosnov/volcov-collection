@@ -1,0 +1,19 @@
+{
+  "name": "volkov-collection",
+  "version": "1.0.0",
+  "description": "volkov photo site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-svgo": "^2.2.1",
+    "gulp-watch": "^5.0.1"
+  }
+}
