@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff; }
+
+@media screen and (min-width: 1024px) {
+  .head {
+    width: 100%;
+    position: relative; }
+    .head .top {
+      height: 7.29167vw;
+      background-color: #beb8b6;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .head .top .inner {
+        width: 83.33333vw;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+    .head .logo-top {
+      position: relative;
+      width: 4.16667vw;
+      height: 4.6875vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 4.16667vw;
+      background-image: url("../images/logo-white.png"); }
+    .head .image {
+      position: relative;
+      width: 100%;
+      height: 57.91667vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../images/head-image.jpg"); }
+      .head .image .info {
+        position: absolute;
+        bottom: 0;
+        width: 83.33333vw;
+        height: 11.45833vw;
+        left: 50%;
+        transform: translateX(-50%); }
+        .head .image .info .title {
+          position: absolute;
+          left: 2.08333vw;
+          top: 0;
+          font-size: 4.16667vw;
+          font-weight: 700;
+          line-height: 4.16667vw;
+          color: #fff; }
+        .head .image .info .text {
+          position: absolute;
+          left: 30.20833vw;
+          width: 36.45833vw;
+          height: 7.8125vw;
+          padding: 1.5625vw 2.34375vw;
+          color: #fff;
+          font-size: 1.25vw;
+          line-height: 1.66667vw;
+          font-weight: 500;
+          background-color: rgba(147, 136, 133, 0.6); }
+          .head .image .info .text .name {
+            font-weight: 400;
+            font-style: italic; }
+        .head .image .info .logo {
+          right: 2.08333vw;
+          top: 0;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 4.16667vw;
+          background-image: url("../images/logo-white.png");
+          opacity: .5; }
+  .footer {
+    width: 100%;
+    position: relative; }
+    .footer-content {
+      width: 100%;
+      background-color: #9e9491;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }
+      .footer-content > .inner {
+        width: 78.68421vw;
+        padding: 1.97368vw 0 10.52632vw; }
+        .footer-content > .inner > .sep {
+          width: 100%;
+          min-height: 1px;
+          height: 0.06579vw;
+          background-color: rgba(255, 255, 255, 0.3);
+          margin: 1.97368vw 0; }
+      .footer-content .footer-content-block {
+        width: 100%; }
+        .footer-content .footer-content-block > .title {
+          text-align: center;
+          font-size: 5.92105vw;
+          font-weight: 700;
+          padding: 5.92105vw 0 2.63158vw; }
+          .footer-content .footer-content-block > .title-bird {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 23.68421vw;
+            background-image: url("../images/footer-bird.png"); }
+        .footer-content .footer-content-block > .text {
+          text-align: center;
+          font-size: 1.57895vw;
+          padding: 1.97368vw 0; }
+        .footer-content .footer-content-block .photographers {
+          width: 61.57895vw;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          padding: 1.97368vw 0; }
+          .footer-content .footer-content-block .photographers .photographer {
+            text-align: center;
+            width: 19.07895vw; }
+            .footer-content .footer-content-block .photographers .photographer .photo {
+              background-size: cover;
+              background-position: center;
+              width: 19.07895vw;
+              height: 27.63158vw;
+              margin-bottom: 3.28947vw;
+              background-color: #999; }
+            .footer-content .footer-content-block .photographers .photographer > .title {
+              font-size: 1.97368vw;
+              font-weight: 700; }
+            .footer-content .footer-content-block .photographers .photographer > .years {
+              font-size: 1.57895vw; }
+            .footer-content .footer-content-block .photographers .photographer > .description {
+              font-style: italic;
+              font-size: 1.18421vw; }
+        .footer-content .footer-content-block .slides {
+          padding: 1.97368vw 0;
+          width: 52.63158vw;
+          margin: 0 auto; }
+        .footer-content .footer-content-block .numbers {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .footer-content .footer-content-block .numbers .dates {
+            width: 100%; }
+            .footer-content .footer-content-block .numbers .dates > .years {
+              text-align: center;
+              font-size: 11.18421vw;
+              font-weight: 700;
+              height: 16.44737vw;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 23.22368vw;
+              background-image: url("../images/footer-calendar.png"); }
+            .footer-content .footer-content-block .numbers .dates > .description {
+              font-size: 1.57895vw;
+              text-align: center; }
+          .footer-content .footer-content-block .numbers .stats {
+            display: flex;
+            justify-content: space-between; }
+            .footer-content .footer-content-block .numbers .stats .photos-count,
+            .footer-content .footer-content-block .numbers .stats .awards-count {
+              width: 29.60526vw; }
+              .footer-content .footer-content-block .numbers .stats .photos-count .count,
+              .footer-content .footer-content-block .numbers .stats .awards-count .count {
+                height: 23.68421vw;
+                font-size: 11.18421vw;
+                line-height: 8.55263vw;
+                font-weight: 700;
+                text-align: center;
+                padding-bottom: 2.63158vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; }
+              .footer-content .footer-content-block .numbers .stats .photos-count > .description,
+              .footer-content .footer-content-block .numbers .stats .awards-count > .description {
+                text-align: center;
+                font-size: 1.57895vw; }
+            .footer-content .footer-content-block .numbers .stats .photos-count .count {
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 23.22368vw;
+              background-image: url("../images/footer-film.png"); }
+            .footer-content .footer-content-block .numbers .stats .awards-count .count {
+              background-repeat: no-repeat;
+              background-position: right top;
+              background-size: 15.72368vw;
+              background-image: url("../images/footer-coupe.png"); }
+      .footer-content .slides {
+        position: relative; }
+        .footer-content .slides .slide__item {
+          height: 32.89474vw;
+          background: seagreen;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .footer-content .slides .prev, .footer-content .slides .next {
+          position: absolute;
+          top: 50%;
+          display: block;
+          width: 2.17105vw;
+          height: 4.40789vw;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center; }
+        .footer-content .slides .prev {
+          left: -4.60526vw;
+          margin-top: -2.17105vw;
+          background-image: url("../images/footer-slider-prev.png"); }
+        .footer-content .slides .next {
+          right: -4.60526vw;
+          margin-top: -2.17105vw;
+          background-image: url("../images/footer-slider-next.png"); }
+    .footer .bottom {
+      position: relative;
+      width: 100%;
+      height: 22.10526vw;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .footer .bottom .cr-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .footer .bottom .cr-block .logo {
+          width: 9.86842vw;
+          height: 9.86842vw;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          background-image: url("../images/logo-color.png");
+          margin-bottom: 1.31579vw; }
+        .footer .bottom .cr-block .text {
+          font-size: 1.05263vw;
+          font-weight: 400;
+          color: #212221;
+          text-align: center;
+          font-style: italic; }
+          .footer .bottom .cr-block .text a {
+            color: #5b4737;
+            text-decoration: none; }
+  .content {
+    width: 100%;
+    background-color: #212221; }
+    .content .inner {
+      width: 84.21053vw;
+      max-width: 100%;
+      margin: 0 auto; }
+    .content-block {
+      padding: 1.97368vw 0;
+      color: #fff; }
+      .content-block > .title {
+        font-size: 3.94737vw;
+        text-align: center;
+        font-weight: 500; }
+      .content-block > .subtitle {
+        font-size: 2.36842vw;
+        font-style: italic;
+        text-align: center;
+        font-weight: 100; }
+      .content-block > .text {
+        font-size: 1.57895vw;
+        padding: 1.31579vw 0; }
+        .content-block > .text > .photo-block .description {
+          text-align: center;
+          font-size: 1.57895vw; }
+          .content-block > .text > .photo-block .description .photographer {
+            font-weight: 100;
+            font-style: italic; }
+          .content-block > .text > .photo-block .description .info {
+            font-weight: 500; }
+          .content-block > .text > .photo-block .description .year {
+            font-weight: 100;
+            font-style: italic; }
+  .wrap {
+    width: 16.84211vw; } }
+
+@media screen and (min-width: 1520px) {
+  .head {
+    width: 100%;
+    position: relative; }
+    .head .top {
+      height: 7.29167vw;
+      background-color: #beb8b6;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .head .top .inner {
+        width: 83.33333vw;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+    .head .logo-top {
+      position: relative;
+      width: 4.16667vw;
+      height: 4.6875vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 4.16667vw;
+      background-image: url("../images/logo-white.png"); }
+    .head .image {
+      position: relative;
+      width: 100%;
+      height: 57.91667vw;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../images/head-image.jpg"); }
+      .head .image .info {
+        position: absolute;
+        bottom: 0;
+        width: 83.33333vw;
+        height: 11.45833vw;
+        left: 50%;
+        transform: translateX(-50%); }
+        .head .image .info .title {
+          position: absolute;
+          left: 2.08333vw;
+          top: 0;
+          font-size: 4.16667vw;
+          font-weight: 700;
+          line-height: 4.16667vw;
+          color: #fff; }
+        .head .image .info .text {
+          position: absolute;
+          left: 30.20833vw;
+          width: 36.45833vw;
+          height: 7.8125vw;
+          padding: 1.5625vw 2.34375vw;
+          color: #fff;
+          font-size: 1.25vw;
+          line-height: 1.66667vw;
+          font-weight: 500;
+          background-color: rgba(147, 136, 133, 0.6); }
+          .head .image .info .text .name {
+            font-weight: 400;
+            font-style: italic; }
+        .head .image .info .logo {
+          right: 2.08333vw;
+          top: 0;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 4.16667vw;
+          background-image: url("../images/logo-white.png");
+          opacity: .5; }
+  .footer {
+    width: 100%;
+    position: relative; }
+    .footer-content {
+      width: 100%;
+      background-color: #9e9491;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }
+      .footer-content > .inner {
+        width: 1196px;
+        padding: 30px 0 160px; }
+        .footer-content > .inner > .sep {
+          width: 100%;
+          min-height: 1px;
+          height: 1px;
+          background-color: rgba(255, 255, 255, 0.3);
+          margin: 30px 0; }
+      .footer-content .footer-content-block {
+        width: 100%; }
+        .footer-content .footer-content-block > .title {
+          text-align: center;
+          font-size: 90px;
+          font-weight: 700;
+          padding: 90px 0 40px; }
+          .footer-content .footer-content-block > .title-bird {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 360px;
+            background-image: url("../images/footer-bird.png"); }
+        .footer-content .footer-content-block > .text {
+          text-align: center;
+          font-size: 24px;
+          padding: 30px 0; }
+        .footer-content .footer-content-block .photographers {
+          width: 936px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          padding: 30px 0; }
+          .footer-content .footer-content-block .photographers .photographer {
+            text-align: center;
+            width: 290px; }
+            .footer-content .footer-content-block .photographers .photographer .photo {
+              background-size: cover;
+              background-position: center;
+              width: 290px;
+              height: 420px;
+              margin-bottom: 50px;
+              background-color: #999; }
+            .footer-content .footer-content-block .photographers .photographer > .title {
+              font-size: 30px;
+              font-weight: 700; }
+            .footer-content .footer-content-block .photographers .photographer > .years {
+              font-size: 24px; }
+            .footer-content .footer-content-block .photographers .photographer > .description {
+              font-style: italic;
+              font-size: 18px; }
+        .footer-content .footer-content-block .slides {
+          padding: 30px 0;
+          width: 800px;
+          margin: 0 auto; }
+        .footer-content .footer-content-block .numbers {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .footer-content .footer-content-block .numbers .dates {
+            width: 100%; }
+            .footer-content .footer-content-block .numbers .dates > .years {
+              text-align: center;
+              font-size: 170px;
+              font-weight: 700;
+              height: 250px;
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 353px;
+              background-image: url("../images/footer-calendar.png"); }
+            .footer-content .footer-content-block .numbers .dates > .description {
+              font-size: 24px;
+              text-align: center; }
+          .footer-content .footer-content-block .numbers .stats {
+            display: flex;
+            justify-content: space-between; }
+            .footer-content .footer-content-block .numbers .stats .photos-count,
+            .footer-content .footer-content-block .numbers .stats .awards-count {
+              width: 450px; }
+              .footer-content .footer-content-block .numbers .stats .photos-count .count,
+              .footer-content .footer-content-block .numbers .stats .awards-count .count {
+                height: 360px;
+                font-size: 170px;
+                line-height: 130px;
+                font-weight: 700;
+                text-align: center;
+                padding-bottom: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end; }
+              .footer-content .footer-content-block .numbers .stats .photos-count > .description,
+              .footer-content .footer-content-block .numbers .stats .awards-count > .description {
+                text-align: center;
+                font-size: 24px; }
+            .footer-content .footer-content-block .numbers .stats .photos-count .count {
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 353px;
+              background-image: url("../images/footer-film.png"); }
+            .footer-content .footer-content-block .numbers .stats .awards-count .count {
+              background-repeat: no-repeat;
+              background-position: right top;
+              background-size: 239px;
+              background-image: url("../images/footer-coupe.png"); }
+      .footer-content .slides {
+        position: relative; }
+        .footer-content .slides .slide__item {
+          height: 500px;
+          background: seagreen;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .footer-content .slides .prev, .footer-content .slides .next {
+          position: absolute;
+          top: 50%;
+          display: block;
+          width: 33px;
+          height: 67px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center; }
+        .footer-content .slides .prev {
+          left: -70px;
+          margin-top: -33px;
+          background-image: url("../images/footer-slider-prev.png"); }
+        .footer-content .slides .next {
+          right: -70px;
+          margin-top: -33px;
+          background-image: url("../images/footer-slider-next.png"); }
+    .footer .bottom {
+      position: relative;
+      width: 100%;
+      height: 336px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .footer .bottom .cr-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .footer .bottom .cr-block .logo {
+          width: 150px;
+          height: 150px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          background-image: url("../images/logo-color.png");
+          margin-bottom: 20px; }
+        .footer .bottom .cr-block .text {
+          font-size: 16px;
+          font-weight: 400;
+          color: #212221;
+          text-align: center;
+          font-style: italic; }
+          .footer .bottom .cr-block .text a {
+            color: #5b4737;
+            text-decoration: none; }
+  .content {
+    width: 100%;
+    background-color: #212221; }
+    .content .inner {
+      width: 1280px;
+      max-width: 100%;
+      margin: 0 auto; }
+    .content-block {
+      padding: 30px 0;
+      color: #fff; }
+      .content-block > .title {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 500; }
+      .content-block > .subtitle {
+        font-size: 36px;
+        font-style: italic;
+        text-align: center;
+        font-weight: 100; }
+      .content-block > .text {
+        font-size: 24px;
+        padding: 20px 0; }
+        .content-block > .text > .photo-block .description {
+          text-align: center;
+          font-size: 24px; }
+          .content-block > .text > .photo-block .description .photographer {
+            font-weight: 100;
+            font-style: italic; }
+          .content-block > .text > .photo-block .description .info {
+            font-weight: 500; }
+          .content-block > .text > .photo-block .description .year {
+            font-weight: 100;
+            font-style: italic; }
+  .wrap {
+    width: 256px; } }
